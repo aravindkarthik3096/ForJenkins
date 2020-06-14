@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="28.507218">
+<testcase classname="To check the facebook login" name="To check using invalid credentials1" time="7.697484">
+<system-out><![CDATA[Given User is facebook login page...........................................passed
+When User enters the username and password..................................passed
+And User click the login button once........................................passed
+Then User validates the outcome of the test  once...........................passed
+]]></system-out>
+</testcase>
+<testcase classname="To check the facebook login" name="To check using invalid credentials2" time="6.938887">
+<system-out><![CDATA[Given User is facebook login page...........................................passed
+When User enters the invalid username and invalid password..................passed
+And User click the login button twice.......................................passed
+Then User validates the outcome of the test twice...........................passed
+]]></system-out>
+</testcase>
+<testcase classname="To check the facebook login" name="To check using invalid credentials3" time="7.242998">
+<system-out><![CDATA[Given User is facebook login page...........................................passed
+When User enters the valid username and invalid password....................passed
+And User click the login button third time..................................passed
+Then User validates the outcome of the test third time......................passed
+]]></system-out>
+</testcase>
+<testcase classname="To check the facebook login" name="To check using invalid credentials4" time="6.627849">
+<system-out><![CDATA[Given User is facebook login page...........................................passed
+When User enters the invalid username and valid password....................passed
+And User click the login button fouth time..................................passed
+Then User validates the outcome of the test  fourth time....................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,369 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 357947,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is facebook login page",
+            "match": {
+              "location": "StepDefenition.user_is_facebook_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 12053105217,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeExecution()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "To check using invalid credentials1",
+        "description": "",
+        "id": "to-check-the-facebook-login;to-check-using-invalid-credentials1",
+        "after": [
+          {
+            "result": {
+              "duration": 683045529,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterClass()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 962987402,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters the username and password",
+            "match": {
+              "location": "StepDefenition.user_enters_the_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 21579126038,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click the login button once",
+            "match": {
+              "location": "StepDefenition.user_click_the_login_button_once()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 37206,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User validates the outcome of the test  once",
+            "match": {
+              "location": "StepDefenition.user_validates_the_outcome_of_the_test_once()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 47042,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is facebook login page",
+            "match": {
+              "location": "StepDefenition.user_is_facebook_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6193683208,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeExecution()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "To check using invalid credentials2",
+        "description": "",
+        "id": "to-check-the-facebook-login;to-check-using-invalid-credentials2",
+        "after": [
+          {
+            "result": {
+              "duration": 1058665147,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterClass()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 387330922,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User enters the invalid username and invalid password",
+            "match": {
+              "location": "StepDefenition.user_enters_the_invalid_username_and_invalid_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 197611638,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User click the login button twice",
+            "match": {
+              "location": "StepDefenition.user_click_the_login_button_twice()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30791,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User validates the outcome of the test twice",
+            "match": {
+              "location": "StepDefenition.user_validates_the_outcome_of_the_test_twice()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 36351,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is facebook login page",
+            "match": {
+              "location": "StepDefenition.user_is_facebook_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5726717127,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeExecution()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "To check using invalid credentials3",
+        "description": "",
+        "id": "to-check-the-facebook-login;to-check-using-invalid-credentials3",
+        "after": [
+          {
+            "result": {
+              "duration": 637614563,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterClass()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 476804262,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User enters the valid username and invalid password",
+            "match": {
+              "location": "StepDefenition.user_enters_the_valid_username_and_invalid_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 175074272,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User click the login button third time",
+            "match": {
+              "location": "StepDefenition.user_click_the_login_button_third_time()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 23521,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User validates the outcome of the test third time",
+            "match": {
+              "location": "StepDefenition.user_validates_the_outcome_of_the_test_third_time()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 50035,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is facebook login page",
+            "match": {
+              "location": "StepDefenition.user_is_facebook_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5684952439,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeExecution()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "To check using invalid credentials4",
+        "description": "",
+        "id": "to-check-the-facebook-login;to-check-using-invalid-credentials4",
+        "after": [
+          {
+            "result": {
+              "duration": 680447531,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterClass()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 551136512,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User enters the invalid username and valid password",
+            "match": {
+              "location": "StepDefenition.user_enters_the_invalid_username_and_valid_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 367687491,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User click the login button fouth time",
+            "match": {
+              "location": "StepDefenition.user_click_the_login_button_fouth_time()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 81682,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User validates the outcome of the test  fourth time",
+            "match": {
+              "location": "StepDefenition.user_validates_the_outcome_of_the_test_fourth_time()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To check the facebook login",
+    "description": "",
+    "id": "to-check-the-facebook-login",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/Facebook.feature",
+    "tags": []
+  }
+]
